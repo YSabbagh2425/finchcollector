@@ -6,7 +6,7 @@
 {% for finch in finches %}
     <a href="{% url 'detail' finch.id %}"
         <div class="card">
-            <div class="card-content">
+            <div class="card-panel cyan lighten-4 background">
                 <span class="card-title">{{ finch.name }}</span>
                 <p>Breed: {{ finch.breed }}</p>
                 <p>Description: {{ finch.description|linebreaks }}</p>

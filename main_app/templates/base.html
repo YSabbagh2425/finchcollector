@@ -11,10 +11,10 @@
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
-<body>
+<body class="yellow background">
   <header>
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper teal background">
         <ul>
           <li><a href="{% url 'home' %}" class="left brand-logo">&nbsp;&nbsp;Finch Collector</a></li>
         </ul>
@@ -30,7 +30,7 @@
     {% block content %}
     {% endblock %}
   </main>
-  <footer class="page-footer">
+  <footer class="page-footer teal background">
     <div class="right">All Rights Reserved, &copy; 2023 Finch Collector &nbsp;</div>
   </footer>
 </body>
